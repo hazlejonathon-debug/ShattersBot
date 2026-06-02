@@ -201,10 +201,10 @@ export const botConfig = {
   // =========================
   tickets: {
     // Category ID where new tickets are created (null = no forced category).
-    defaultCategory: null,
+    defaultCategory: 1511065533607317777,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [STAFF],
+    supportRoles: [1506731464836775997],
 
     // Priority options users/staff can assign.
     priorities: {
@@ -365,9 +365,9 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1506729805834358834,
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: 1511485317633278064,
   },
 
   // =========================
