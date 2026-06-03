@@ -78,7 +78,7 @@ export const botConfig = {
     deleteApprovedAfter: 30, 
 
     // Role IDs allowed to manage applications.
-    managerRoles: [], // Will be populated from environment or database
+    managerRoles: [1506731464836775997], // Will be populated from environment or database
   },
 
   // =========================
@@ -208,27 +208,27 @@ export const botConfig = {
 
     // Priority options users/staff can assign.
     priorities: {
-      none: {1506731464836775997
+      none: {
         emoji: "⚪",
         color: "#95A5A6",
         label: "None",
       },
-      low: {1506731464836775997
+      low: {
         emoji: "🟢",
         color: "#2ECC71",
         label: "Low",
       },
-      medium: {1506731464836775997
+      medium: {
         emoji: "🟡",
         color: "#F1C40F",
         label: "Medium",
       },
-      high: {1506731464836775997
+      high: {
         emoji: "🔴",
         color: "#E74C3C",
         label: "High",
       },
-      urgent: {1506731464836775997
+      urgent: {
         emoji: "🚨",
         color: "#E91E63",
         label: "Urgent",
