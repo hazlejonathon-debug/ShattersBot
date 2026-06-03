@@ -208,27 +208,27 @@ export const botConfig = {
 
     // Priority options users/staff can assign.
     priorities: {
-      none: {
+      none: {1506731464836775997
         emoji: "⚪",
         color: "#95A5A6",
         label: "None",
       },
-      low: {
+      low: {1506731464836775997
         emoji: "🟢",
         color: "#2ECC71",
         label: "Low",
       },
-      medium: {
+      medium: {1506731464836775997
         emoji: "🟡",
         color: "#F1C40F",
         label: "Medium",
       },
-      high: {
+      high: {1506731464836775997
         emoji: "🔴",
         color: "#E74C3C",
         label: "High",
       },
-      urgent: {
+      urgent: {1506731464836775997
         emoji: "🚨",
         color: "#E91E63",
         label: "Urgent",
